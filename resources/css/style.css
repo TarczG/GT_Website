@@ -150,7 +150,9 @@ div .flex_container{
      #services{
         background-image: url("../images/office_e.JPG");
      }
-
+     a{
+        font-size: 0.5rem;
+    }
 }
 @media only screen and (min-width:1000px){
     .item img{
@@ -170,5 +172,6 @@ div .flex_container{
         margin-bottom: 50px;
         padding: 60px;
     }
+
 
 }
