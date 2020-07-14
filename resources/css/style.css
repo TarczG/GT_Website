@@ -108,7 +108,7 @@ div .flex_container{
 #services h1{
     color: black;
     opacity: 0.7;
-    font-weight: 200;
+    
 }
 
 #services .item {
@@ -147,5 +147,28 @@ div .flex_container{
      .item {
          padding: 20px;
      }
+     #services{
+        background-image: url("../images/office_e.JPG");
+     }
+
+}
+@media only screen and (min-width:1000px){
+    .item img{
+        object-fit: cover;   
+        height: 350px;
+        width: 720px;
+     }
+     .item {
+         padding: 40px;
+     }
+     #services{
+        background-image: url("../images/office_e.JPG");
+     }
+     #services .item {
+        background-color: rgba(255,255,255,0.7);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 60px;
+    }
 
 }
